@@ -1,0 +1,14 @@
+
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:sqlite:./campus_delivery.db
+    driver-class-name: org.sqlite.JDBC
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.community.dialect.SQLiteDialect
