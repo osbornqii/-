@@ -91,7 +91,8 @@ campus_delivery/
 │   │   └── algorithm/         # 遗传算法实现
 │   ├── db/                    # 数据库初始化脚本
 │   └── pom.xml                # Maven配置
-├── frontend/                   # Vue前端
+├── frontend/                  # Vue前端
+│   ├── .env.local             #配置百度地图AK
 │   ├── src/
 │   │   ├── views/             # 页面组件
 │   │   ├── stores/            # Pinia状态管理
@@ -152,7 +153,7 @@ MIT License
 
 ## 作者
 
-您的姓名
+Yvonne
 
 ---
 
