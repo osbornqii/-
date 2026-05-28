@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7e9f6"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="256" height="256" fill="url(#g)"/>
+  <circle cx="128" cy="128" r="92" fill="none" stroke="#b24aa7" stroke-width="10"/>
+  <circle cx="128" cy="128" r="76" fill="none" stroke="#c86bbf" stroke-width="3" stroke-dasharray="6 6"/>
+  <g fill="none" stroke="#b24aa7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M84 140h88"/>
+    <path d="M96 140v-26l32-22 32 22v26"/>
+    <path d="M108 140v-18h16v18"/>
+    <path d="M132 140v-18h16v18"/>
+    <path d="M128 78v12"/>
+    <path d="M116 90h24"/>
+    <path d="M90 156c12 10 24 16 38 18"/>
+    <path d="M166 156c-12 10-24 16-38 18"/>
+  </g>
+  <g fill="#b24aa7" font-family="PingFang SC, Microsoft YaHei, Arial" font-size="14" text-anchor="middle">
+    <text x="128" y="208">校园无人车</text>
+    <text x="128" y="226">路径规划系统</text>
+  </g>
+</svg>
+
